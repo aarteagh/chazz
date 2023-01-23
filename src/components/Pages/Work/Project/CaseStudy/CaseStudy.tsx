@@ -13,6 +13,7 @@ export const CaseStudy = ({ caseStudyId }: Props) => {
   console.log("PROJECT", project);
   return (
     <>
+      <h1>hola</h1>
       {project.sections.map((section: IProjectSection) => {
         let returnedContent = <></>;
         if (section.oneColumn) {
